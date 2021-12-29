@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     //result message
                     Toast.makeText(MainActivity.this, "signup result :" + result, Toast.LENGTH_SHORT).show();
 
-                    Log.d("DB Connect", "Success---");
+                    Log.i("DB Connect", "Success---");
                 } catch (Exception e) {
                     Toast.makeText(MainActivity.this,"DB Error....", Toast.LENGTH_SHORT).show();
                     Log.d("DB Connect", "Error ---");
